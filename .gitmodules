@@ -1,0 +1,6 @@
+[submodule "ftprintf"]
+	path = ftprintf
+	url = git@github.com:OrioPrisco/ft_printf_pub
+[submodule "getnextline"]
+	path = getnextline
+	url = git@github.com:OrioPrisco/get_next_line_pub
