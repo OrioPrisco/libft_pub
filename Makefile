@@ -6,7 +6,7 @@
 #    By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/23 15:27:59 by OrioPrisc         #+#    #+#              #
-#    Updated: 2023/06/28 13:54:16 by OrioPrisco       ###   ########.fr        #
+#    Updated: 2023/06/28 14:08:50 by OrioPrisco       ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -72,6 +72,7 @@ SRC = ft_atoi.c\
 	ft_strtold.c\
 	ft_strpbrknul.c\
 	ft_isspace.c\
+	ft_next_non_match.c\
 
 LIBS	=	libftprintf.a\
 			libgetnextline.a

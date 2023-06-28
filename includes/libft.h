@@ -6,7 +6,7 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 11:55:38 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/06/28 13:53:49 by OrioPrisco       ###   ########.fr       */
+/*   Updated: 2023/06/28 14:10:11 by OrioPrisco       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,7 @@ char		**ft_split(char const *s, char c);
 char		*ft_itoa(int n);
 long		ft_strtol(const char *nptr, char **endptr, int base);
 const char	*ft_next_non_space(const char *str);
+char		*ft_next_non_match(const char *str, int (*f)(int));
 _Bool		ft_strtol_check_int(const char *str, const char *endptr,
 				long parsed);
 long double	ft_strtold(const char *nptr, char **endptr);
