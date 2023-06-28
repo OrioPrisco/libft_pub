@@ -6,7 +6,7 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 11:55:38 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/06/22 18:24:45 by OrioPrisco       ###   ########.fr       */
+/*   Updated: 2023/06/28 13:53:49 by OrioPrisco       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,7 @@ int			ft_isdigit(int c);
 int			ft_isalnum(int c);
 int			ft_isascii(int c);
 int			ft_isprint(int c);
+int			ft_isspace(int i);
 size_t		ft_strlen(const char *c);
 size_t		ft_strnlen(const char *c, size_t n);
 void		*ft_memset(void *s, int c, size_t n);

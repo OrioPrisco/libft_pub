@@ -1,20 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_next_non_space.c                                :+:      :+:    :+:   */
+/*   ft_isspace.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/04 14:53:17 by OrioPriscc        #+#    #+#             */
-/*   Updated: 2023/06/28 13:54:49 by OrioPrisco       ###   ########.fr       */
+/*   Updated: 2023/06/28 13:50:35 by OrioPrisco       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-const char	*ft_next_non_space(const char *str)
+int	ft_isspace(int i)
 {
-	while (ft_isspace(*str))
-		str++;
-	return (str);
+	char	c;
+
+	c = i;
+	return ((c >= 9 && c <= 13) || c == ' ');
 }
