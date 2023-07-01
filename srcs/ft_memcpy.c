@@ -6,7 +6,7 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 13:13:24 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/04/11 13:15:47 by OrioPrisc        ###   ########.fr       */
+/*   Updated: 2023/07/01 22:46:21 by OrioPrisco       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ static void	*ft_memcpy_word(WORD_TYPE *dest, const WORD_TYPE *src, size_t n)
 
 	source = src;
 	destin = dest;
-	while (n < sizeof(WORD_TYPE))
+	while (n >= sizeof(WORD_TYPE))
 	{
 		*destin++ = *source++;
 		n -= sizeof(WORD_TYPE);
