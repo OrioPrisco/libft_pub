@@ -4,3 +4,6 @@
 [submodule "getnextline"]
 	path = getnextline
 	url = git@github.com:OrioPrisco/get_next_line_pub
+[submodule "vector"]
+	path = vector
+	url = git@github.com:OrioPrisco/libvector.git

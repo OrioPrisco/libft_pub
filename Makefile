@@ -6,7 +6,7 @@
 #    By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/23 15:27:59 by OrioPrisc         #+#    #+#              #
-#    Updated: 2023/06/28 14:08:50 by OrioPrisco       ###   ########.fr        #
+#    Updated: 2023/07/04 10:40:28 by OrioPrisco       ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -75,7 +75,8 @@ SRC = ft_atoi.c\
 	ft_next_non_match.c\
 
 LIBS	=	libftprintf.a\
-			libgetnextline.a
+			libgetnextline.a\
+			libvector.a\
 
 
 SRC_FOLDER = srcs/
@@ -91,8 +92,10 @@ CFLAGS = -Wall -Wextra -Werror -fPIC
 
 all: $(NAME) compile_commands.json
 	
+%/.git :
+	git submodule update --init $*
 
-lib%.a : %/
+lib%.a : %/ %/.git
 	make -C $<
 	cp $</$@ $@
 
