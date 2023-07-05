@@ -6,7 +6,7 @@
 #    By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/23 15:27:59 by OrioPrisc         #+#    #+#              #
-#    Updated: 2023/07/04 10:40:28 by OrioPrisco       ###   ########.fr        #
+#    Updated: 2023/07/05 16:35:28 by OrioPrisco       ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -87,6 +87,7 @@ OBJ_FOLDER = objs/
 OBJS		=	$(patsubst %.c,$(OBJ_FOLDER)%.o,$(SRC))
 COMMANDS	=	$(patsubst %.c,$(OBJ_FOLDER)%.cc,$(SRC))
 DEPENDS		:=	$(patsubst %.c,$(OBJ_FOLDER)%.d,$(SRC))
+SUBMODULES	:= $(patsubst lib%.a,%/.git,$(LIBS))
 
 CFLAGS = -Wall -Wextra -Werror -fPIC
 
@@ -131,5 +132,6 @@ re: fclean all
 	
 .PHONY: all clean fclean re bonus so
 .SUFFIXES:
+.PRECIOUS: $(SUBMODULES)
 MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += --no-builtin-rules
