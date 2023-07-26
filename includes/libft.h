@@ -6,7 +6,7 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 11:55:38 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/07/13 15:02:01 by OrioPrisco       ###   ########.fr       */
+/*   Updated: 2023/07/26 16:12:08 by OrioPrisc        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ long double	ft_strtold(const char *nptr, char **endptr);
 char		*ft_strpbrknul(const char *s, const char *accept);
 size_t		ft_strspn(const char *str, const char *accept);
 size_t		ft_strcspn(const char *str, const char *reject);
+void		ft_memswp(void *foo, void *bar, size_t size);
 
 typedef struct s_list
 {
