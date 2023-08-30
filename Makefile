@@ -6,7 +6,7 @@
 #    By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/23 15:27:59 by OrioPrisc         #+#    #+#              #
-#    Updated: 2023/07/26 16:25:37 by OrioPrisc        ###   ########.fr        #
+#    Updated: 2023/08/30 17:27:32 by OrioPrisc        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,6 +76,8 @@ SRC = ft_atoi.c\
 	ft_strspn.c\
 	ft_strcspn.c\
 	ft_memswp.c\
+	ft_fake_strcoll.c\
+	ft_strcmp_custom.c\
 
 
 LIBS	=	libftprintf.a\
