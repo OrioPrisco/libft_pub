@@ -6,7 +6,7 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 11:55:38 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/08/30 17:23:50 by OrioPrisc        ###   ########.fr       */
+/*   Updated: 2023/09/21 12:28:47 by OrioPrisc        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,8 +42,9 @@ int			ft_tolower(int c);
 int			ft_strncmp(const char *s1, const char *s2, size_t n);
 int			ft_strcmp(const char *s1, const char *s2);
 int			ft_fake_strcoll(const char *s1, const char *s2);
+// if accept is null, everything is accepted
 int			ft_strcmp_custom(const char *s1, const char *s2,
-				int (*f)(char, char));
+				int (*compare)(char, char), int (*accept)(int));
 int			ft_case_comp(char a, char b);
 int			ft_lcase_comp(char a, char b);
 size_t		ft_index(const char *s, char c);
