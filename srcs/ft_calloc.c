@@ -6,12 +6,13 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 18:36:58 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/04/11 13:15:46 by OrioPrisc        ###   ########.fr       */
+/*   Updated: 2023/09/22 15:36:33 by OrioPrisc        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdint.h>
+#include <stdlib.h>
 
 void	*ft_calloc(size_t nmemb, size_t size)
 {

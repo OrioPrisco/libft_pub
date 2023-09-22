@@ -6,11 +6,12 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 13:28:44 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/04/11 13:15:49 by OrioPrisc        ###   ########.fr       */
+/*   Updated: 2023/09/22 15:37:37 by OrioPrisc        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 //use strncpy instead of strlcpy
 char	*ft_strtrim(const char *s, const char *set)

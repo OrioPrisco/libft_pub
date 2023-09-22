@@ -6,11 +6,12 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/08 11:57:12 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/04/11 13:15:49 by OrioPrisc        ###   ########.fr       */
+/*   Updated: 2023/09/22 15:37:07 by OrioPrisc        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 //possible optimization : strnstr(s, 0, start + len);
 //use strcpy instead of strlcpy

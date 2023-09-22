@@ -6,11 +6,12 @@
 /*   By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/09 18:08:35 by OrioPrisc         #+#    #+#             */
-/*   Updated: 2023/04/11 13:15:47 by OrioPrisc        ###   ########.fr       */
+/*   Updated: 2023/09/22 15:39:05 by OrioPrisc        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 static int	ft_itoa_len(int nb)
 {
