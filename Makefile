@@ -6,7 +6,7 @@
 #    By: OrioPrisco <47635210+OrioPrisco@users      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/23 15:27:59 by OrioPrisc         #+#    #+#              #
-#    Updated: 2023/08/30 17:27:32 by OrioPrisc        ###   ########.fr        #
+#    Updated: 2023/09/27 12:58:36 by OrioPrisc        ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,6 +69,7 @@ SRC = ft_atoi.c\
 	ft_strtol.c\
 	ft_next_non_space.c\
 	ft_strtol_check_int.c\
+	ft_strtol_check_long.c\
 	ft_strtold.c\
 	ft_strpbrknul.c\
 	ft_isspace.c\
